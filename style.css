@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&family=Passions+Conflict&family=Roboto&display=swap');
+
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Passions Conflict', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-head{
+  box-sizing: border-box;
+  padding:30px;
+  
+}
+/********************************************************this is heade  start****************************************/
+.container-head{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    justify-items: center;
+    box-sizing: border-box;
+}
+.manu{
+  display: inline;
+}
+ul{
+  list-style-type: none; 
+  padding-left:12px;
+
+}
+li{
+ display: inline;
+ Text-Style: Headline_7_SemiBold;
+ Font-family: Manrope;
+ Font-style: SemiBold;
+ Font-size: 14px;
+ Line-height: 24px;
+ Line-height: 125%;
+ Align: Left;
+ Vertical-align: Top;
+ Letter-spacing: -1%;
+ 
+}
+a{ 
+ text-decoration: none;
+  color:#9497A1 ;
+  font-size:14px;
+  padding: 12px;
+}
+.select{
+  border: none;
+  color:#9497A1;
+}
+.botton{ 
+  display: inline;
+  padding-right:50px;
+  border-radius: 6px;
+  border: none;
+}
+/********************************************************this is headee  
+end****************************************/
+
+
+/********************************************************this is main  
+start****************************************/
+
+
+
+/*----section one --*/
+.containar-main{
+
+  margin: 0 auto;
+  display: flex;
+  border-bottom:#F1F6FA solid 1px;
+
+}
+.asid{
+ padding-left:80px;
+ margin:30px;
+}
+.asid h2{
+  font-size: 46px;
+}
+.asid p{
+  font-size:20px;
+}
+.bot{
+  width:150px;
+  padding:12px;
+  background-color: #185CFF;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+.bot-1{
+  padding-left: 3px;
+}
+
+.img-1{
+ width:px;
+}
+
+
+/*----section two --*/
+
+
+.containar-logo{
+  padding-left:50px;
+  }
+.containar-logo a{
+  
+}
+/*----section three --*/
+
+.cotaniner-card{
+  padding:50px;
+  text-align: center;
+  background-color: #F1F6FA;
+}
+.text{
+  padding: 10px;
+  font-size:46px;
+}
+.text p{
+  font-size:20px;
+}
+.card{
+  display: flex;
+  margin:1px;
+  padding-top:0px;
+}
+.box1{
+  text-align: left;
+  padding:50px;
+  width:250px;
+  background-color:#FFFFFF ;
+  margin:auto;
+  
+
+
+}
+.box1 h5{
+  font-size:22px;
+  color: #292D33;
+}
+.box1 p{
+  font-size:16px;
+  color: #9497A1;
+}
+
+/*----section three --*/
+.containar-four{
+  display: flex;
+  padding:12px;
+}
+.analitics{
+ padding: 13px;
+ text-align: left;
+ 
+}
+
+.analitics text{
+  padding:13px;
+  margin:13px;
+  background-color: #1c427a;
+
+}
+.analitics img{
+  text-align: left;
+  width:600px;
+}
+.analitics  h2{
+  font-size: 46px;
+  color: black;
+}
+.analitics  p{
+  font-size:20px;
+  color: #9497A1;
+}
+.radically{
+ padding: 13px;
+}
+.redically img{
+  width: 700px;
+}
+.radically  h2{
+  font-size: 46px;
+  color: black;
+}
+.radically  p{
+  font-size: 20px;
+  color: #9497A1;
+}
+
+
+/*----section five --*/
+.container-five{
+  background-color: #F0F9FF;
+ text-align: center;
+ padding:40px;
+ 
+}
+.card{
+ padding-top:12px;
+}
+.text-five{
+  padding-top: 15px;
+}
+.text-five h2{
+  font-size:46px;
+  color: black;
+}
+.ter{
+  color: #185CFF;
+  padding-left:15px;
+}
+.bott{
+ margin:50px;
+ border-radius:4px;
+}
+/*----section six --*/
+.container-six{
+ background-color:#F5F5F5;
+justify-items: center;
+
+}
+
+.text-item{
+ display: flex;
+ padding-left:125px;
+}
+.text-six{
+  font-size:46px;
+  display:inline-block;
+  padding-left:105px;
+ 
+  
+}
+.img-trenform{
+ transform: rotate(360deg);
+}
+.cord{
+  display:flex;
+  padding-left:300px;
+}
+.arobato{
+  margin-top: 125px;
+  margin-left:125px;
+  padding-left:123px;
+  display: inline-block;
+
+}
+.but{
+  background-color: #F0F9FF;
+  color: #C9DCEC;
+  padding:12px;
+  border: none;
+}
+.card-1{
+ padding:12px;
+ box-sizing: border-box;
+ color:#9497A1 ;
+}
+.card-1{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin: 25px;
+      
+}
+.card-1 h4{
+  color: black;
+}
+.img-box{
+  
+}
+/*----section seven --*/
+.container-seven{
+  display: flex;
+  justify-content: center;
+  padding:12px;
+  background-color: #185CFF;
+  box-sizing: border-box;
+}
+.item1{
+  padding-left:50px;
+  color: white;
+}
+.item1 h2{
+  Font-size: 56px;
+  
+}
+
+/*----section eight --*/
+.container-eight{
+  display: flex;
+  padding:12px;
+  box-sizing: border-box;
+  background-color: #F1F6FA;
+  
+}
+.contact{
+  margin:132px;
+
+}
+
+.contact-from{
+  margin:120px;
+  width:350px;
+  background-color: #FFFFFF;
+  padding:12px;
+  border-radius:6px;
+}
+.contact-from p {
+  
+}
+.contact-from button{
+  float: right;
+  color:white;
+  background-color: #185CFF;
+  border: none;
+  border-radius:6px;
+  padding:15px;
+  width:110px;
+  
+}
+.border{
+ border-bottom: 2px solid #9497A1;
+}
+.colar{
+  color: #9497A1;
+}
+
+/*----section nine --*/
+
+.container-nine{
+ background-color: #185CFF;
+ display: flex;
+ justify-items: center;
+ box-sizing: border-box;
+ color: white;
+ padding:40px;
+}
+.text-nine{
+  padding-left:150px;
+}
+.text-nine h2 {
+  font-size: 38px;
+}
+.text-nine p {
+  font-size: 20px;
+}
+.pagination{
+  margin:110px;
+}
+.bou{
+  background-color: gainsboro;
+  border-radius:6px;
+  padding-right:100px;
+ 
+
+}
+.bo{
+  background-color:white ;
+  border-radius:6px;
+}
+
+/********************************************************this is main  
+end****************************************/
+
+/*
+********************************************************thi
+s is footer  
+start****************************************/
+.container-footer{
+  width:100%;
+  margin: 0 auto;
+  background-color: #F1F6FA;
+  padding-top:0px;
+
+}
+/*----section footer one --*/
+.container-f-one{
+  display: flex;
+  border-bottom: 2px solid #C9DCEC;
+  margin-left:5px;
+  margin-right: 5px;
+ 
+}
+.logo-footer{
+ padding-left:20px;
+ padding-top:13px;
+}
+
+.containar-f-two{
+  display: flex;
+}
+.contactd{
+  border-bottom:2px solid  #9497A1 ;
+}
+.contactd{
+ padding-left:15px;
+}
+.box-footer{
+  display: flex;
+  margin-left:500px;
+  margin-bottom:20px;
+  padding-bottom: px;
+  line-height: 24px;
+  Line-height: 110%;
+
+}
+.About h2{
+  padding-right:100px;
+  font-size: 16px;
+}
+
+.Information h2{
+  padding-right: 50px;
+  font-size: 16px;
+}
+.Service h2{
+  padding-right:60px;
+  font-size: 16px;
+}
+/*----section footer two --*/
+.container-cont{
+  border-bottom:2px solid #C9DCEC;
+  
+}
+.text-foot{
+  padding-left:30px;
+  font-size: 16px;
+ 
+ 
+  
+}
+.text-foot-link{
+  display: flex;
+  padding-left: 35px;
+}
+.socile{
+  
+}
+.conta{
+  padding-left:123px;
+  padding-bottom:112px;
+}
+/*----section footer three --*/
+.p-foot{
+  margin:12px;
+}
+.privacy{
+  display: flex;
+  margin-left:100px;
+  background-color: #F1F6FA;
+  
+
+}
+.text-foot{
+  display: flex;
+  margin:12px;
+  
+}
+.p-fe{
+  padding-left: 12px;
+  padding-top:50px;
+}
+.p-f{
+ padding-top:80px;
+ padding-left:300px;
+}
+.text1{
+  padding-left:550px;
+  padding-top:70px;
+}
+/*
+********************************************************thi
+s is footer  
+end****************************************/
+
